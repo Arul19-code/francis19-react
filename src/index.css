@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* tiny global tweaks */
+:root { --bg: 255 255 255; --text: 17 24 39 }
+.dark { --bg: 17 24 39; --text: 243 244 246 }
+
+body {
+  background-color: rgb(var(--bg));
+  color: rgb(var(--text));
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* utility to make image placeholders cover nicely */
+.img-cover { object-fit: cover; width: 100%; height: 100%; }
