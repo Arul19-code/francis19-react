@@ -10,6 +10,7 @@ const links = [
   { to: '/contact', label: 'Contact' },
 ]
 
+
 export default function Navbar({ theme, setTheme }) {
   return (
     <header className="bg-gray-100 dark:bg-gray-800 border-b dark:border-gray-700">

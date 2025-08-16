@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Arul19-code.github.io/francis19-react",
+  "homepage": "https://Arul19-code.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
