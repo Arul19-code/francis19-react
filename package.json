@@ -6,7 +6,7 @@
   "homepage": "https://Arul19-code.github.io/francis19-react/",
   "scripts": {
     "dev": "vite",
-    "build": "vite && cp dist/index.html dist/404.html",
+    "build": "vite build",
     "serve": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
