@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "vite && cp dist/index.html dist/404.html",
     "serve": "vite preview",
-    "predeploy": "npm run deploy",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
